@@ -216,6 +216,71 @@ a:link {
   }
 }
 
+
+/* mobile responsive */
+@media (max-width: 414px) {
+  .intro-content {
+    
+    position: relative;
+    left: 40px;
+    top: 80px;
+  }
+  .avi {
+    width: 140px;
+    position: absolute;
+    left: 85px;
+    bottom: 450px;
+  }
+  .intro-icons {
+    position: relative;
+    left: 190px;
+    bottom: 95px;
+  }
+}
+
+@media (max-width: 375px) {
+ 
+  .intro-content {
+    position: relative;
+    left: 20px;
+    top: 80px;
+  }
+  .avi {
+    width: 140px;
+    position: absolute;
+    left: 82px;
+    bottom: 450px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  .intro-content {
+
+    position: relative;
+    left: 20px;
+    top: 80px;
+  }
+  .avi {
+    width: 140px;
+    position: absolute;
+    left: 60px;
+    bottom: 420px;
+  }
+
+  .intro-icons {
+    position: relative;
+    left: 160px;
+  }
+
+}
+
 .intro-buttons {
   margin-top: 5.5rem;
 }
@@ -259,7 +324,7 @@ a:link {
 
 .portfolio-paragraph {
   margin: 0 auto 0 auto;
-  width: 50%;
+  width: 75%;
 }
 
 /* SERVICES STYLES
@@ -277,7 +342,6 @@ a:link {
   text-align: center;
   margin: 0 auto 0 auto;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  
 }
 
 .services-card:hover {
@@ -295,7 +359,7 @@ a:link {
 
 .service-icon {
   color: #FFFFFF;
- }
+}
 
 .services-icons {
   border: 1px solid black;
@@ -312,7 +376,6 @@ a:link {
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
   --color: #373B44;
-  
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
   color: var(--color);
   --_p: var(--s);
@@ -323,9 +386,7 @@ a:link {
   outline: var(--b) solid #0000;
   outline-offset: .6em;
   font-size: 16px;
-
   border: 0;
-
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -343,30 +404,28 @@ a:link {
   color: #fff;
 }
 
-
 /* CONTACT STYLES
 -------------------------------------------------- */
 .contact-card {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2rem;
 }
 
 .contact-icons {
-  margin-top: 2.5rem;
+  width: 100%;
   padding-top: 0.2rem;
+  width: 35%;
+  margin: 2.5rem auto  0 auto;
 }
 
 .contact-icon {
   color:#90B45E;
-  padding-left: 2rem;
 }
 
 .contact-icon:hover {
   color: #33313B;
 } 
 
-#linkedin-icon {
-  padding-left: 0;
-}
 
 /* FOOTER STYLES
 -------------------------------------------------- */
