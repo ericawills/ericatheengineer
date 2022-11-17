@@ -195,7 +195,7 @@ nav li a {
   border-radius: 50%;
 }
 
-@media (max-width: 573px) {
+@media (max-width: 574px) {
   .avi {
     display: none;
   }
