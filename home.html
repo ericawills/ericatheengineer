@@ -21,20 +21,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
       .nav-scroller {
         position: relative;
         z-index: 2;
@@ -68,7 +54,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="collapse navbar-collapse navbar-inverse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -90,15 +76,17 @@
 </header>
 <div class="container-fluid color-section" id="header">
   <div class="row intro-content">
-    <div class="col-lg-7 col-md-8 col-sm-6">
+
+    <div class="col-6 intro-text">
       <h1>Hi, I'm Erica</h1>
       <h1>A <span class="underlined-text">Software Developer</span>.</h1>
+      <h3 class="subtitle">Development | Design | Data Integration</h3>
       <div class="intro-buttons">
        <a class="header-link button-link" href="#services"><button class="button">Learn More</button></a> 
       </div>
-   
     </div>
-    <div class="col-lg-5 col-md-4 col-sm-6">
+
+    <div class="col-6 ">
       <img class="avi logo" src="images/logo2Light.png" alt="">
     </div>
   </div>
@@ -136,7 +124,7 @@
   
       <div class="row"> <!-- row 1 -->
 
-        <div class="col-md-4 col-sm-6 services-card-row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12 services-card-row">
           <div class="services-card card">
             <img class="services-images justify-content-center" src = "icons/development3.svg" style="width: 75%; margin: 0 auto 0 auto"/>
             <br>   
@@ -149,7 +137,7 @@
             </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 services-card-row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12 services-card-row">
           <div class="services-card card">
             <img class="services-images justify-content-center" src = "icons/mobile.svg" style="width: 75%; margin: 0 auto 0 auto"/>
             <br>    
@@ -161,7 +149,7 @@
             </div>
         </div>
         
-        <div class="col-md-4 col-sm-6 services-card-row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12 services-card-row">
           <div class="services-card card">
             <img class="services-images justify-content-center" src = "icons/design.svg" style="width: 75%; margin: 0 auto 0 auto"/>
             <br>
@@ -173,7 +161,7 @@
             </div>
           </div>
 
-        <div class="col-md-4 col-sm-6 services-card-row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12 services-card-row">
           <div class="services-card card" >
             <img class="services-images justify-content-center" src = "icons/responsive2.svg" style="width: 75%; margin: 0 auto 0 auto"/>
             <br>        
@@ -185,7 +173,7 @@
             </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 services-card-row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12 services-card-row">
           <div class="services-card card ">
             <img class="services-images justify-content-center" src = "icons/data.svg" style="width: 75%; margin: 0 auto 0 auto"/>
             <br>       
@@ -197,7 +185,7 @@
             </div>
         </div>
         
-        <div class="col-md-4 col-sm-6 services-card-row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12 services-card-row">
           <div class="services-card card ">
             <img class="services-images justify-content-center" src = "icons/ecommerce4.svg" style="width: 75%; margin: 0 auto 0 auto"/>
             <br>
@@ -224,7 +212,7 @@
         </div>
           <br>
           <div class="button-area">
-          <a class="header-link" class="button-link" href="#contact"><button class="button" style="margin: 0 auto 0 auto;">Send Me Samples</button></a> 
+          <a class="header-link button-link" href="#contact"><button class="button" style="margin: 0 auto 0 auto;">Send Me Samples</button></a> 
         </div>
     </div>
   </div>
@@ -262,17 +250,17 @@
         <h4>I would love to hear from you.</h4>
         <p>Have questions about portfolio samples, business services or other inquiries, or just want to network? Shoot me an email and I will be sure to respond in a timely manner. </p>
         <p class="text-muted">(Please allow 24 - 48 hours)</p>
-        <a class="button-link" href="mailto:ericatheengineer1@gmail.com"><button class="button" style="margin: 0 auto 0 auto;">Click to Compose</button></a>
+        <a class="header-link button-link" href="mailto:ericatheengineer1@gmail.com"><button class="button" style="margin: 0 auto 0 auto;">Click to Compose</button></a>
         <br>
         <small>Not exactly sure what you're looking for? Check out my other platforms and see what's happening.</small>
         <div class="contact-icons row">
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-4">
             <a href="https://www.youtube.com/channel/UCS-17K-3h4h1vZZYV0pZ8fA" target="_blank"><i class='fa fa-youtube-play fa-2x contact-icon' id="youtube-icon"></i></a>
           </div>
-           <div class="col-lg-4 col-md-4 ol-sm-6 col-xs-12">
+           <div class="col-4">
             <a href="https://www.linkedin.com/in/ericatheengineer/" target="_blank"><i class="fa fa-brands fa-linkedin fa-2x contact-icon"></i></a>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-4">
             <a href="mailto:ericatheengineer1@gmail.com" target="_blank"><i class="fa fa-solid fa-envelope fa-2x contact-icon"></i></a>
           </div>
         </div>

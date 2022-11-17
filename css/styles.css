@@ -25,7 +25,7 @@ hr {
 }
   
 .section-content {
-  width: 75%;
+  width: 85%;
   margin: 0 auto 0 auto;
   /* padding-bottom: 2rem; */
 }
@@ -176,6 +176,13 @@ nav li a {
   padding: 7rem 0 2rem 0;
 }
 
+.subtitle {
+  margin-top: 3rem;
+  font-family: 'Playfair Display', serif;
+  color: gray;
+  width: 30rem;
+}
+
 .underlined-text {
   font-weight:bolder;
   border-bottom: 8px solid #90B45E;
@@ -183,107 +190,18 @@ nav li a {
 
 .avi{
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  width: 30%;
-  position: absolute;
+  width: 100%;
   border: 10px solid #33313B;
   border-radius: 50%;
 }
 
-@media (max-width: 767px) {
-  .intro-content {
-    width: 100%;
-    position: relative;
-    left: 90px;
-  }
+@media (max-width: 573px) {
   .avi {
-    width: 200px;
-    position: absolute;
-    left: 340px;
-    bottom: 100px;
+    display: none;
   }
 }
-
-@media (max-width: 658px) {
-  .intro-content {
-    width: 100%;
-    position: relative;
-    left: 90px;
-  }
-  .avi {
-    width: 200px;
-    position: absolute;
-    left: 250px;
-    bottom: 30px;
-  }
-}
-
-
-/* mobile responsive */
-@media (max-width: 414px) {
-  .intro-content {
-    
-    position: relative;
-    left: 40px;
-    top: 80px;
-  }
-  .avi {
-    width: 140px;
-    position: absolute;
-    left: 85px;
-    bottom: 450px;
-  }
-  .intro-icons {
-    position: relative;
-    left: 190px;
-    bottom: 95px;
-  }
-}
-
-@media (max-width: 375px) {
- 
-  .intro-content {
-    position: relative;
-    left: 20px;
-    top: 80px;
-  }
-  .avi {
-    width: 140px;
-    position: absolute;
-    left: 82px;
-    bottom: 450px;
-  }
-
-}
-
-@media (max-width: 320px) {
-  h1 {
-    font-size: 40px;
-  }
-  p {
-    font-size: 16px !important;
-  }
-  .intro-content {
-
-    position: relative;
-    left: 20px;
-    top: 80px;
-  }
-  .avi {
-    width: 140px;
-    position: absolute;
-    left: 60px;
-    bottom: 420px;
-  }
-
-  .intro-icons {
-    position: relative;
-    left: 160px;
-  }
-
-}
-
 .intro-buttons {
-  margin-top: 5.5rem;
+  margin-top: 3rem;
 }
 
 .header-link {
