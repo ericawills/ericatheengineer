@@ -65,8 +65,17 @@ hr {
   border: 3px solid #90B45E;
 }
 
-a:link {
+.button-link {
   color: #28282d;
+}
+
+.logo {
+  -webkit-transition: width 2s,-webkit-transform 2s;
+}
+
+.logo:hover{
+  border: 5px solid #90B45E;
+  -webkit-transform:rotate(360deg);
 }
 /* button css */
 .button {
@@ -151,10 +160,8 @@ a:link {
   border: 1px solid #90B45E;
 }
 
-.nav-link:hover {
-    font-size: 20px;
-    color: #D9CAB3;
-    box-shadow: 10px 10px 5px #90B45E;
+nav li a {
+  color:#F9F9F9;
 }
 
 /* HEADER STYLES
@@ -180,12 +187,6 @@ a:link {
   position: absolute;
   border: 10px solid #33313B;
   border-radius: 50%;
-  -webkit-transition: width 2s,-webkit-transform 2s;
-}
-
-.avi:hover{
-  border: 5px solid #90B45E;
-  -webkit-transform:rotate(360deg);
 }
 
 @media (max-width: 767px) {
