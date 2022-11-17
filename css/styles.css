@@ -198,6 +198,9 @@ nav li a {
   .avi {
     display: none;
   }
+  .contact-icon {
+    width: 5px;
+  }
 }
 .intro-buttons {
   margin-top: 3rem;
@@ -333,7 +336,6 @@ nav li a {
 .contact-icons {
   width: 100%;
   padding-top: 0.2rem;
-  width: 35%;
   margin: 2.5rem auto  0 auto;
 }
 
